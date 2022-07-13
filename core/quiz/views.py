@@ -13,6 +13,11 @@ def direction_view(request, pk):
     return render(request, 'quiz/direction.html', {'obj': direction})
 
 
+def question_view(request):
+
+    return render(request, 'quiz/start-quiz.html')
+
+
 def direction_data_view(request, pk):
     direction = Direction.objects.get(pk=pk)
     questions = []
@@ -50,7 +55,15 @@ def direction_data_save(request, pk):
                         if a.correct:
                             score += 1
             UserAnswer.objects.create(user=user, question=q, answer=a)
-        print(score)
         DirectionScore.objects.create(user=user, direction=direction, score=score)
 
-    return JsonResponse({'text': 'works'})
+        direct = Direction.objects.count()
+        count = 1
+        while direct > count:
+            count += 1
+        return JsonResponse({
+            'passed': True,
+            'score': score,
+            'len dir': direct,
+            'co': count
+        })

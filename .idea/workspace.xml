@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db59af1b-db6e-4a7c-ab57-df715fb1f4fe" name="Changes" comment="" />
+    <list default="true" id="db59af1b-db6e-4a7c-ab57-df715fb1f4fe" name="Changes" comment="Front js v 0.0.1">
+      <change afterPath="$PROJECT_DIR$/core/quiz/static/quiz/js/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/start-quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/static/quiz/js/direction.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/static/quiz/js/direction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/templates/quiz/direction.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/direction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,6 +45,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.last.introduce.type": "CONST",
     "last_opened_file_path": "C:/webProjects/Entrance_tests",
@@ -61,8 +71,16 @@
       <workItem from="1657472973138" duration="6206000" />
       <workItem from="1657521221040" duration="3854000" />
       <workItem from="1657568731159" duration="1737000" />
-      <workItem from="1657650734828" duration="469000" />
+      <workItem from="1657650734828" duration="7771000" />
     </task>
+    <task id="LOCAL-00001" summary="Front js v 0.0.1">
+      <created>1657657126093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657657126093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Front js v 0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front js v 0.0.1" />
   </component>
 </project>
