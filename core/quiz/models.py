@@ -58,7 +58,25 @@ class UserAnswer(models.Model):
 class DirectionScore(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
     direction = models.ForeignKey(Direction, on_delete=models.CASCADE, blank=True, null=True)
+    block = models.ForeignKey(Block, on_delete=models.CASCADE, blank=True, null=True)
     score = models.IntegerField()
 
     def __str__(self):
-        return f'{self.user} - {self.direction}'
+        return f'{self.user} - {self.block} - {self.direction}'
+
+
+class BlockScore(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
+    block = models.ForeignKey(Block, on_delete=models.CASCADE, blank=True, null=True)
+    score = models.IntegerField()
+
+    def __str__(self):
+        return f'{self.user} - {self.block}'
+
+
+class FinalResult(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
+    score = models.IntegerField()
+
+    def __str__(self):
+        return f'{self.user} - {self.score}'

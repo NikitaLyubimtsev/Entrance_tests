@@ -1,0 +1,21 @@
+{% extends 'quiz/base.html' %}
+{% load static %}
+
+{% block scripts %}
+    <script src="{% static 'quiz/js/quiz.js' %}" defer></script>
+{% endblock scripts %}
+
+{% block title %}
+    Начало теста
+{% endblock title %}
+
+{% block content %}
+    <h1>Начало теста</h1>
+    <form id="direction-form" class="mt-3 mb-3">
+        {% csrf_token %}
+        <div id="direction-box">
+         <!--   <button id="start-quiz" type="button" class="btn btn-primary mt-3" >Начать</button> -->
+        </div>
+        <button id="rest-direction" type="button" class="btn btn-primary mt-3">Начать тест</button>
+    </form>
+{% endblock content %}

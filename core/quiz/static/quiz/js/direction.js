@@ -1,6 +1,7 @@
 const url = window.location.href
 
 const directionBox = document.getElementById('direction-box')
+const restDirect = document.getElementById('restDirect')
 
 $.ajax({
     type: 'GET',
@@ -37,30 +38,32 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 
 const sendData = () => {
     const elements = [...document.getElementsByClassName('ans')]
+    console.log(elements)
     const data = {}
     data['csrfmiddlewaretoken'] = csrf[0].value
-    elements.forEach(el=>{
-        if (el.checked) {
-            data[el.name] = el.value
-        } else {
-            if (!data[el.name]) {
-                data[el.name] = null
-            }
-        }
-    })
+    // elements.forEach(el=>{
+    //     if (el.checked) {
+    //         data[el.name] = el.value
+    //     } else {
+    //         if (!data[el.name]) {
+    //             data[el.name] = null
+    //         }
+    //     }
+    // })
 
-    $.ajax({
-        type: 'POST',
-        url: `${url}save`,
-        data: data,
-        success: function (response){
-            console.log(response)
-        },
-        error: function (error) {
-            console.log(error)
-
-        }
-    })
+    // let count = 0
+    // $.ajax({
+    //     type: 'POST',
+    //     url: `${url}save`,
+    //     data: data,
+    //     success: function (response){
+    //         const Direction = response.co
+    //     },
+    //     error: function (error) {
+    //         console.log(error)
+    //
+    //     }
+    // })
 }
 
 directionForm.addEventListener('submit', e=>{

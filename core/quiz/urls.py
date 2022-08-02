@@ -3,7 +3,9 @@ from .views import *
 
 
 urlpatterns = [
-    path('<int:pk>/', direction_view, name='direction-view'),
-    path('<int:pk>/save', direction_data_save, name='save-view'),
-    path('<int:pk>/data/', direction_data_view, name='direction-data-view'),
+    path('', LoginUser.as_view(), name='login'),
+    path('quiz/', quiz_view, name='start-quiz'),
+    path('quiz/block-data/', block_data, name='block-data'),
+    path('quiz/<int:bpk>/<int:dpk>/save', direction_data_save, name='save-view'),
+    path('quiz/<int:bpk>/<int:dpk>/data/', direction_data_view, name='direction-data-view'),
 ]

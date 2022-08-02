@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db59af1b-db6e-4a7c-ab57-df715fb1f4fe" name="Changes" comment="" />
+    <list default="true" id="db59af1b-db6e-4a7c-ab57-df715fb1f4fe" name="Changes" comment="Front js v 0.0.1">
+      <change afterPath="$PROJECT_DIR$/core/quiz/calculation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/quiz/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/parts/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Entrance_tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Entrance_tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/static/quiz/js/direction.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/static/quiz/js/direction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/static/quiz/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/static/quiz/js/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/templates/quiz/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/templates/quiz/start-quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/templates/quiz/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/quiz/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +31,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,21 +55,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/webProjects/Entrance_tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/webProjects/Entrance_tests/venv&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,8 +86,39 @@
       <workItem from="1657472973138" duration="6206000" />
       <workItem from="1657521221040" duration="3854000" />
       <workItem from="1657568731159" duration="1737000" />
-      <workItem from="1657650734828" duration="469000" />
+      <workItem from="1657650734828" duration="7889000" />
+      <workItem from="1657732705944" duration="1154000" />
+      <workItem from="1658819974614" duration="9000" />
+      <workItem from="1658820436730" duration="3545000" />
+      <workItem from="1658958870493" duration="8080000" />
+      <workItem from="1659012334183" duration="4864000" />
+      <workItem from="1659129111006" duration="2872000" />
+      <workItem from="1659207005843" duration="8000" />
+      <workItem from="1659207139853" duration="9000" />
+      <workItem from="1659223033063" duration="511000" />
+      <workItem from="1659223564285" duration="309000" />
+      <workItem from="1659259217485" duration="6073000" />
+      <workItem from="1659290394256" duration="3320000" />
+      <workItem from="1659336459469" duration="2437000" />
+      <workItem from="1659363766350" duration="5627000" />
+      <workItem from="1659421497784" duration="12328000" />
+      <workItem from="1659470627036" duration="3376000" />
     </task>
+    <task id="LOCAL-00001" summary="Front js v 0.0.1">
+      <created>1657657126093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657657126093</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Front js v 0.0.1">
+      <created>1657710366058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657710366058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +134,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Front js v 0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front js v 0.0.1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Entrance_tests$calculation.coverage" NAME="calculation Coverage Results" MODIFIED="1659421885732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/quiz" />
+    <SUITE FILE_PATH="coverage/Entrance_tests$views.coverage" NAME="views Coverage Results" MODIFIED="1659421971539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/quiz" />
   </component>
 </project>
